@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="display" id="display" disabled>
+        <div class="buttons">
+            <button class="button special" onclick="clearDisplay()">AC</button>
+            <button class="button special" onclick="deleteDernierNombre()">DEL</button>
+            <button class="button operation" onclick="ajouter_operation('%')">%</button>
+            <button class="button operation" onclick="ajouter_operation('/')">÷</button>
+            <button class="button" onclick="ajouter_numero('7')">7</button>
+            <button class="button" onclick="ajouter_numero('8')">8</button>
+            <button class="button" onclick="ajouter_numero('9')">9</button>
+            <button class="button operation" onclick="ajouter_operation('*')">×</button>
+            <button class="button" onclick="ajouter_numero('4')">4</button>
+            <button class="button" onclick="ajouter_numero('5')">5</button>
+            <button class="button" onclick="ajouter_numero('6')">6</button>
+            <button class="button operation" onclick="ajouter_operation('-')">−</button>
+            <button class="button" onclick="ajouter_numero('1')">1</button>
+            <button class="button" onclick="ajouter_numero('2')">2</button>
+            <button class="button" onclick="ajouter_numero('3')">3</button>
+            <button class="button operation" onclick="ajouter_operation('+')">+</button>
+            <button class="button" onclick="ajouter_numero('(')">(</button>
+            <button class="button" onclick="ajouter_numero('0')">0</button>
+            <button class="button" onclick="ajouter_numero(')')">)</button>
+            <button class="button special" onclick="calculate()">=</button>
+            <button class="button" onclick="square()">x²</button>
+            <button class="button" onclick="cube()">x³</button>
+            <button class="button" onclick="sqrt()">√x</button>
+            <button class="button" onclick="ajouter_operation('**')">^</button>
+        </div>
+    </div>
+
+    <footer>
+        © 2024 Calculatrice. Tous droits réservés. - Chokri Zahra
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

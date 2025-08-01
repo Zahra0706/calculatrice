@@ -26,5 +26,5 @@ Cette application web est une calculatrice interactive développée en **HTML**,
 1. Clonez le dépôt :
    ```bash
    git clone https://github.com/Zahra0706/calculatrice.git
-```
+   ```
 2. Ouvrez le fichier index.html dans votre navigateur.

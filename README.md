@@ -9,7 +9,7 @@ Cette application web est une calculatrice interactive développée en **HTML**,
   - Carré (x²)
   - Cube (x³)
   - Racine carrée (√x)
-  - Puissance (^)
+  - Puissance (^) 
 - Gestion des parenthèses pour les priorités
 - Bouton **AC** pour effacer tout
 - Bouton **DEL** pour supprimer le dernier caractère
